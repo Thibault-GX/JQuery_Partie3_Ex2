@@ -1,0 +1,79 @@
+.mainContainer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-radius: 20px;
+  border-style: groove;
+  margin: 3%;
+  padding: 3%;
+  height: 60vh;
+  width: 50%;
+  background-color: grey;
+  background-image: url("../img/wonderingBlack.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nicholson {
+  background-image: url("../img/agreeingNicholson.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.doctor {
+  background-image: url("../img/disagreeingDoctor.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#totalNb {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#add {
+width: 25%;
+height: 40px;
+color: green;
+}
+
+#substract {
+width: 25%;
+height: 40px;
+font-size: 1.5rem;
+font-weight: bold;
+color: red;
+}
+
+#comment {
+  justify-content: center;
+  width: 90%;
+  height: 2rem;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: auto;
+}
+
+#totalNb {
+display: flex;
+justify-content: center;
+width: 100%;
+}
